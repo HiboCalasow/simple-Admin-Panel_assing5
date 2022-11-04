@@ -1,0 +1,342 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.sidebar{
+    width: 20%;
+    height: 800px;
+}
+
+.center{
+    width: 80%;
+    height: 1500px;
+   background-color: #dbd3d38a;
+}
+.container{
+    display: flex;
+}
+
+.logoimg{
+    height: 30px;
+    margin: 20px;
+    margin-left: 10px;
+    margin-top: -10px;
+}
+
+
+
+.logodiv{
+ margin: 0;
+display: flex;
+margin: 10px;
+margin-top: 37px;
+width: 100%;
+border-bottom: 0.5px solid rgb(181, 179, 179);
+/* box-shadow: 5px 5px gray, 10px 10px gray, 15px 15px gray; */
+ 
+}
+
+
+.side_menu ul {
+    list-style: none;
+     margin: 0px;
+     padding: 10px;
+}
+.side_menu ul li i{
+    color: rgba(60, 0, 255, 0.464);
+    padding-left: 10px;
+    margin-right: 20px;
+    margin-bottom: 25px;
+    text-align: left;
+    font-size: 12px;
+}
+.side_menu ul li select{
+    background: none;
+    outline: none;
+    border: none;
+
+}
+.submenu{
+    color: gray;
+    font-size: 15px;
+    margin-left:25px;
+}
+
+
+
+.upheader{
+    background-color: white;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    
+    
+}
+
+/* .upheader .icoon{
+
+    
+     color: gray;
+    align-items: center;
+    margin-top: 10px;
+    margin-left:100px;
+    width: 300px;
+
+
+} */
+
+.icoon{
+    display: flex;
+    flex-direction: row;
+
+    
+}
+.icoon i{
+    margin-top: 30px;
+    margin-left: 10px;
+}
+
+
+.inputsearch{
+    background-color: #eee;
+    padding-left: 20px;
+    border-radius: 5px;
+    width: 450px;
+    height: 40px;
+    border: none;
+    margin-left: 20px;
+}
+
+.inputsearch:hover{
+    border:none;
+    outline: none;
+}
+
+.inputsearch:focus{
+    border: none;
+    outline: none;
+}
+.search .fa{
+    margin-left: -30px;
+}
+
+
+.fa-cart-plus{
+margin: 4px;
+font-size: 20px;
+border-radius: 4px;
+padding: 5px;
+color: goldenrod;
+size: 10px;
+}
+
+.head_icons ul{
+    display: flex;
+    flex-direction: row;
+    font-size: 15px;
+    color: rgb(4, 40, 185);
+    padding-left: 90px;
+    list-style-type: none;
+
+}
+.head_icons ul li{
+    padding-left: 30px;
+
+}
+.head_img{
+    width:30px; 
+    height: 30px;
+    border-radius: 70px;
+    margin-top: -5px;
+    margin-left: 20px;
+}
+.user{
+    width: 250px;
+    height: 140px;
+    background-color: rgb(255, 255, 255);
+    margin-left: 50px;
+    padding-left: 40px;
+    border-radius: 20px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    padding-top: 20px;
+    text-align: left;
+    line-height: 30px;
+    font-family: sans-serif;
+
+}
+.mycenter{
+    display: flex;
+    flex-direction: row;
+    margin-left: 25px;
+    margin-top: 10px;
+}
+.Dashboard1{
+    margin-left: 70px;
+    margin-top: 40px;
+    font-size: 20px;
+    font-family: sans-serif;
+    color: gray;
+}
+.users{
+    display: flex;
+    flex-direction: row;
+   
+   
+}
+
+.users .user{
+    margin-left: 10px;
+    margin-top: 20px;
+    padding-left: 20px;
+}
+.user h5{
+    color: gray;
+    font-size: 17px;
+}
+.user h1{
+    font-size: 25px;
+}
+.user h6{
+    margin-left: 5px;
+    font-size: 15px;
+    color: rgba(21, 0, 255, 0.525);
+}
+ .img img{
+    width: 80px;
+    height: 80px;
+    margin-top: 30px;
+    margin-left: -100px;
+
+}
+.profile_text{
+    margin-left: 70px;
+    margin-top: 40px;
+    font-size: 20px;
+    font-family: sans-serif;
+    color: gray;
+    margin-top: 100px;
+}
+.profile_box{
+    width: 90%;
+    height:25%;
+    background-color: rgb(255, 255, 255);
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    
+    margin-left: 50px;
+}
+.img-box{
+    display: flex;
+    flex-direction: row;
+}
+.img_box img{
+    width: 100%;
+    height: 300px;
+    padding: 20px;
+};
+.profile_box .buttons{
+   margin-top: 90px;
+   background: rgb(205, 255, 255);
+}
+.footer_box{
+    display: flex;
+    flex-direction: row;
+    margin-left: 30px;
+    margin-top: 250px;
+
+}
+.footer_box img{
+    width: 60px;height:60px;
+    border-radius: 190px;
+}
+.footer_box h4{
+    color: rgb(37, 238, 11);
+    margin-left: 20px;
+    font-family: sans-serif;
+    font-size: 20px;
+
+}
+.icons_box{
+    margin-left: 45%;
+    font-size: 20px;
+    display: flex;
+    flex-direction: row;
+  
+}
+.icon{
+    width: 40px;
+    height: 40px;
+    border-radius: 20px;
+    background-color: rgba(128, 128, 128, 0.436);
+}
+
+.icons_box .icon {
+    color: rgb(17, 0, 255);
+    margin-left: 10px;
+    padding: 10px;
+
+}
+.buttons{
+    margin-top: -270px;
+    margin-left:730px;
+  
+}
+.buttons button{
+    background-color: blue;
+    border: none;
+    padding: 10px;
+    color: white;
+    border-radius: 20px;
+    width: 100px;
+
+   
+}
+.buttons button i{
+    padding-right: 6px;
+  
+}
+.form_loyout{
+  
+    display: flex;
+    flex-direction: row;
+    
+}
+.mynav{
+    background: white;
+    width: 40%;
+    height: 16%;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    margin-top: 30px;
+    margin-left: 45px;
+
+}
+.mynav h3{
+    text-align: center;
+}
+.mynav label{
+    margin: 10px;
+    margin-left: 15px;
+}
+.mynav input{
+    margin: 10px;
+    width: 400px;
+    margin-left: 15px;
+    padding: 5px;
+}
+.mynav .submit{
+    background-color: green;
+    color: white;
+    border-radius: 10px;
+}
+.mynav .checkbox{
+    margin: 10px;
+    margin-left: -175px;
+    
+}
+.mynav span{
+    margin-top: -28px;
+    margin-left: 50px;
+    margin-bottom: 10px;
+}
